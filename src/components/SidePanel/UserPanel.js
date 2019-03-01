@@ -44,7 +44,7 @@ class UserPanel extends React.Component {
 
     
     return (
-        <Grid style={{ background: '#4c3c4c'}}>
+        <Grid style={{ background: '#262526'}}>
            <GridColumn>
                <GridRow style={{ padding: '1.2em', margin: 0}}>
                 
