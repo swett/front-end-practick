@@ -2,19 +2,19 @@ html,
 body,
 .apps {
     height: 100vh;
-    background: #eee;
+    
     padding: 1em;
 }
 .app{
     height: 102vh;
-    background: url(bgimg.jpg) no-repeat 50% 50%;
+    background: url(bgm.jpg) no-repeat 50% 50%;
     background-size: auto; 
     padding: 1em;
 }
 .apps{
     height: 100vh;
-    background: url(bgmimgapp.png) no-repeat 50% 50%;
-    background-size: auto; 
+    background-image: url(bgmmm.jpg) ;
+   background-size: auto;
     padding: 1em;
 }
 .apps::before {
@@ -42,6 +42,7 @@ width:300%;
 }
 /* Messages*/
 .messages {
+    
     height: 440px;
     overflow-y: scroll;
 

@@ -54,7 +54,7 @@ class Messages extends React.Component {
            <React.Fragment>
                 <MessagesHeader />
 
-                <Segment inverted color="black"> 
+                <Segment style={{background:'#303030'}}> 
                     <Comment.Group className="messages" >
                         {this.displayMessages(messages)}
                     </Comment.Group>

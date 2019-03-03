@@ -44,13 +44,13 @@ class UserPanel extends React.Component {
 
     
     return (
-        <Grid style={{ background: '#262526'}}>
+        <Grid style={{ background: '#303030'}}>
            <GridColumn>
                <GridRow style={{ padding: '1.2em', margin: 0}}>
                 
                 {/*App Header*/}
                 <Header inverted floated="left" as="h2"> 
-                <HeaderContent>StalkerChat</HeaderContent>
+                <HeaderContent>Tenno Chat</HeaderContent>
                 </Header>
 
                </GridRow>

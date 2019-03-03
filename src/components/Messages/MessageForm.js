@@ -61,8 +61,9 @@ class MessageForm extends React.Component {
         const {errors, message, loading} = this.state;
         return(
             <Segment className="message__form"
-            inverted color='black'
-            style={{marginLeft: '0.1em'}}>
+            
+            style={{ background: "#303030",
+                marginLeft: '0.1em'}}>
                 <Input 
                 fluid
                 name="message"

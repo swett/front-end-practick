@@ -5,13 +5,13 @@ class MessagesHeader extends React.Component {
 
     render() {
         return(
-            <Segment clearing 
-            inverted color="black">
+            <Segment clearing
+            style={{background:"#303030"}}>
                 {/* Channel Title */}
             <Header fluid="true" as="h2" floated="left" style={{ marginBottom: 0}}>
             <span>
             Channel
-            <Icon name="dna" color="grey" />
+            <Icon name="group" color="grey" />
             </span>
             <Header.Subheader>2 Users</Header.Subheader>
             </Header>

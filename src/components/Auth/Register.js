@@ -140,7 +140,7 @@ class Register extends React.Component {
            <Grid textAlign="center" verticalAlign="middle" className="app">
             <Grid.Column style={{maxWidth: 450}}>
             <Header as="h1" inverted color="grey" textAlign="center">
-                       Register for Stalkers
+                       Welcome Tenno
             </Header>
             <Form  onSubmit={this.handleSubmint} size="large" className="form-input">
             <Segment stacked>

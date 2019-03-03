@@ -90,7 +90,7 @@ class Login extends React.Component {
            <Grid textAlign="center" verticalAlign="middle" className="app">
             <Grid.Column style={{maxWidth: 450}}>
             <Header as="h1" inverted color="grey" textAlign="center">
-                        Login to Stalkers
+                        Login Tenno
             </Header>
             <Form  onSubmit={this.handleSubmint} size="large" className="form-input">
             <Segment stacked>
